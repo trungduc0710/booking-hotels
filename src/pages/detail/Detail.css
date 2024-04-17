@@ -1,0 +1,76 @@
+.main-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-top button {
+  height: fit-content;
+}
+
+.info {
+  line-height: 1.8;
+}
+
+.info-address {
+  font-size: 12px;
+}
+
+.info-distance {
+  color: #003580;
+}
+
+.info-deal {
+  color: green;
+}
+
+.main-midle {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  margin: 10px 0 20px 0;
+}
+
+.main-midle img {
+  width: 33%;
+  aspect-ratio: 1.25/1;
+}
+
+.main-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  letter-spacing: -0.5px;
+}
+
+.main-bottom__left {
+  width: 70%;
+}
+.main-bottom__right {
+  width: 24%;
+  padding: 16px;
+  background: #ebf3ff;
+}
+
+.left-title {
+  margin: 10px 0;
+}
+
+.right-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #5f5f5f;
+}
+
+.right-price {
+  line-height: 3;
+}
+
+.right-price span {
+  font-weight: lighter;
+}
+
+.main-bottom__right button {
+  width: 100%;
+}

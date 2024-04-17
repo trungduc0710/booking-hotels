@@ -1,0 +1,167 @@
+.top-page {
+  padding: 10px 10%;
+  background: #003580;
+}
+
+.main-srearch-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 62px 10% 56px 10%;
+}
+
+.search-popup {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 8px;
+  background: linear-gradient(#febb02, #febb02);
+}
+
+.search-result {
+  width: 80%;
+}
+
+.popup-title {
+  color: rgb(61, 61, 61);
+}
+
+.popup-label {
+  margin: 12px 0 5px 0;
+  font-size: 16px;
+}
+
+.popup-label__sup {
+  color: #757575;
+}
+
+.search-popup input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.search-input-groups {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin: 10px 10px 20px 10px;
+  font-size: 13px;
+}
+
+.search-input-groups input {
+  width: 25%;
+  padding: 2px 5px;
+  margin: 5px 0;
+  outline: none;
+  justify-self: right;
+  font-size: 14px;
+}
+
+.btn-bl {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  background: #2171e2;
+}
+
+.btn-bl:hover {
+  opacity: 0.7;
+}
+
+/* ===================== SEARCH RESULT ==========================*/
+
+.item-result {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: solid 1px rgba(185, 185, 185, 0.7);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.item-result-left {
+  width: 25%;
+  aspect-ratio: 1/1.1;
+  height: fit-content;
+  margin-right: 18px;
+}
+
+.item-result-right {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: -0.5px;
+}
+
+.result-title {
+  margin-bottom: 5px;
+  color: #003580;
+}
+
+.result-para {
+  margin-bottom: 8px;
+}
+
+.result-tag {
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: white;
+  background: green;
+}
+
+.description {
+  margin: 8px 0;
+}
+
+.free-cancel {
+  margin: 8px 0;
+  font-weight: bold;
+  color: green;
+}
+
+.free-cancel-mess {
+  margin: 8px 0;
+  color: green;
+}
+
+.result-rating-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rate-point {
+  padding: 5px;
+  color: white;
+  background: #003580;
+}
+
+.price-and-btn {
+  text-align: right;
+}
+
+.price {
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+.price-sub {
+  margin-bottom: 5px;
+  color: #919191;
+}
